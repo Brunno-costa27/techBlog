@@ -4,7 +4,7 @@ import { Button } from './Button'
 export function Header(){
     
     return (
-        <header className='flex px-40 py-10 h-[560px] font-roboto w-full bg-[#F8F8FF]'>
+        <header className='flex flex-col sm:px-40 sm:py-10 sm:h-[560px] font-roboto sm:w-full bg-[#F8F8FF]'>
             {/* Conteúdo */}
             <div className='flex flex-col justify-center items-start w-full gap-6'>
                 <div className='text-4xl flex w-[80%]'>

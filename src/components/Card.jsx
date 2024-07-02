@@ -5,7 +5,7 @@ export function Card({img, title, subTitle}){
             {/* Imagem */}
             <div className="flex justify-center items-center bg-cover w-full h-[150px]">
                 <img
-                    className="w-full h-full rounded-t-md transition-transform hover:scale-105" 
+                    className="w-full h-full rounded-t-md transition-transform duration-500 hover:scale-105" 
                     src={img}
                     alt="" />
             </div>
