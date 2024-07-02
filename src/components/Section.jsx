@@ -52,13 +52,13 @@ export function Section(){
     ]
 
     return (
-        <section className='flex flex-col px-40 py-10 font-roboto'>
-            <div>
+        <section className='flex flex-col px-12 py-6 sm:px-40 sm:py-10 font-roboto'>
+            <div className=''>
                 <p className='font-bold text-lg'>Artigos recomendados</p>
             </div>
 
             {/* Cards */}
-            <div className='grid grid-cols-3 gap-4 mt-12'>
+            <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-4 mt-12'>
                 {
                     data.map((item) =>(
                         <Card 
